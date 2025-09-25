@@ -45,7 +45,7 @@ app.post('/api/send-welcome-email', async (req, res) => {
 
   const msg = {
     to: email,
-    from: 'careerflowsh@gmail.com', // Your verified SendGrid sender
+    from: 'careerflowsih@gmail.com', // Your verified SendGrid sender
     subject: '🚀 Welcome to Career Flow – Your Future Just Got an Upgrade!',
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.6;">
@@ -72,4 +72,5 @@ app.post('/api/send-welcome-email', async (req, res) => {
 // --- 4. START THE SERVER ---
 app.listen(PORT, () => {
   console.log(`✅ Backend server is listening on port ${PORT}`);
+
 });
